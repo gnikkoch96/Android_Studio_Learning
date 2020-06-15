@@ -9,45 +9,59 @@
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
-        <LinearLayout
+
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_margin="@dimen/overall_article_margin">
+
             <TextView
                 android:id="@+id/article_heading"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@color/colorPrimary"
                 android:padding="@dimen/padding_regular"
                 android:text="@string/article_title"
                 android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/heading_text_size"
+                android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/article_subheading"
+            <LinearLayout
+                android:id="@+id/article_content"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/article_heading"
-                android:padding="@dimen/padding_regular"
-                android:text="@string/article_subtitle"
-                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+                android:orientation="horizontal"
+                android:layout_below="@id/article_heading">
 
-            <TextView
-                android:id="@+id/article"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:autoLink="web"
-                android:lineSpacingExtra="@dimen/line_spacing"
-                android:padding="@dimen/padding_regular"
-                android:text="@string/article_text" />
+
+                <TextView
+                    android:id="@+id/article_subheading"
+                    android:layout_width="@dimen/subheading_width"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_regular"
+                    android:text="@string/article_subtitle"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+
+                <TextView
+                    android:id="@+id/article"
+                    android:layout_width="@dimen/article_text_width"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/article_subheading"
+                    android:autoLink="web"
+                    android:lineSpacingExtra="@dimen/line_spacing"
+                    android:text="@string/article_text" />
+
+
+            </LinearLayout>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/add_comment"
-                android:padding="@dimen/padding_regular"/>
-        </LinearLayout>
-
+                android:layout_below="@id/article_content"
+                android:padding="@dimen/padding_regular"
+                android:text="@string/add_comment" />
+        </RelativeLayout>
     </ScrollView>
 
 
