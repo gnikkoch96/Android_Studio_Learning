@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">scrollingApp</string>
+    <string name="article_title"> NIO\'s Plan to Expand to Europe </string>
+    <string name="article_subtitle">NIO needs to expand globally to make a profit</string>
+    <string name="article_text">
+        Check out my website at www.google.com
+        \n
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc malesuada mollis justo, id consectetur neque mattis non. Suspendisse eleifend accumsan convallis. In imperdiet sit amet purus eu luctus. Donec tristique odio quis bibendum posuere. Donec tincidunt magna vel nisl volutpat suscipit. Fusce maximus lectus quis ipsum rhoncus tincidunt. Sed varius sagittis sagittis. Mauris dictum, metus in eleifend rutrum, nunc dolor sodales urna, in mollis metus ligula quis nisl. Nunc dapibus felis leo, id cursus dolor tincidunt ut. Nulla efficitur sed leo ac convallis.
+        \n\n
+        Aliquam nec lectus urna. Sed consequat elit sapien, non tincidunt nisi consequat nec. Donec id orci et elit sollicitudin iaculis. In ut tincidunt ex, id interdum mi. Praesent a vestibulum nunc. Ut malesuada metus ac risus mattis, at pellentesque nisl pretium. Cras feugiat velit in gravida ullamcorper. Phasellus id mauris ex. Nunc tristique lectus vitae feugiat auctor. Nam risus magna, malesuada vitae pharetra nec, placerat in tortor. Ut tempus ligula ligula, at sodales risus blandit vel. Pellentesque nec pulvinar magna, ac tempus mi.
+        \n\n
+        Suspendisse leo purus, suscipit pretium tincidunt nec, ullamcorper in leo. Sed quis dui nisl. Aenean a augue semper, convallis lectus eget, auctor risus. Sed sed elementum ante. Praesent venenatis erat in nulla sagittis, aliquet ultricies neque maximus. Integer metus eros, posuere id faucibus nec, maximus sed enim. Suspendisse sed tortor in mi aliquam posuere consectetur vulputate odio. Mauris a risus placerat mauris faucibus ultrices quis ac magna. Sed tincidunt eros aliquet metus aliquam, vitae viverra elit vulputate. Donec non turpis vel tortor commodo iaculis eget elementum nibh. Donec vel nibh vel purus consectetur rhoncus at in tellus. Aenean ultricies molestie interdum.
+        \n\n
+        Donec interdum nec sem eget semper. Pellentesque nunc tellus, maximus non metus non, condimentum tempus enim. Morbi ac gravida ante, non tempus lacus. Praesent aliquam quam in lobortis tempus. Etiam dapibus tempus rhoncus. Donec ultricies, ligula id condimentum aliquam, erat metus rhoncus neque, sit amet sagittis ipsum mi sed enim. Integer odio dolor, tristique id elementum ac, placerat bibendum est. Sed vel lacus cursus, auctor turpis vel, convallis est. Proin fringilla lacus sed elit vehicula, at consequat mi varius. Sed nec massa vel dui accumsan dapibus. Maecenas euismod vehicula feugiat.
+        \n\n
+        Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean ante magna, ultricies eget ipsum eu, luctus egestas lectus. Donec ut mollis nunc, non hendrerit tortor. Mauris maximus feugiat arcu, non imperdiet turpis tempus quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dignissim mi eu tortor malesuada iaculis. Duis condimentum nisl sollicitudin, ultrices libero a, consectetur dolor. Sed felis purus, cursus quis velit et, auctor sodales felis. Praesent venenatis tristique nisl eu fringilla. Quisque ultrices lectus eu iaculis molestie. Nunc aliquet faucibus odio, sit amet sagittis magna euismod at. Mauris dignissim turpis nec lectus vehicula pharetra. Vivamus scelerisque felis ac tellus vulputate, ut aliquam enim pharetra. Cras fringilla, tortor sed commodo pellentesque, mi nisi mattis ligula, et porttitor nunc purus in ante. In efficitur ullamcorper libero at condimentum.
+    </string>
+    <string name="add_comment">Add Comment</string>
+</resources>
